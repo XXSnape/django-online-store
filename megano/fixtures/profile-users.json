@@ -1,0 +1,20 @@
+[
+{
+    "model": "profileuser_app.profileuser",
+    "pk": 1,
+    "fields": {
+        "fullName": "Ivanov Ivan Ivanovich",
+        "email": "admin@mail.ru",
+        "phone": "+77777777777",
+        "user": 1
+    }
+},
+{
+    "model": "profileuser_app.avataruser",
+    "pk": 1,
+    "fields": {
+        "avatar": "users/avatars/id_1/spider.png",
+        "profile": 1
+    }
+}
+]

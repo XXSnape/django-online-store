@@ -1,0 +1,68 @@
+[
+{
+    "model": "orders_app.order",
+    "pk": 9,
+    "fields": {
+        "createdAt": "2023-06-23T13:39:05.438Z",
+        "user_profile": 1,
+        "deliveryType": "express",
+        "paymentType": "online",
+        "totalCost": "523284.00",
+        "status": "accepted",
+        "city": "Москва",
+        "address": "Улица Московская",
+        "products": [
+            2,
+            4,
+            7,
+            10,
+            11
+        ]
+    }
+},
+{
+    "model": "orders_app.quantityproductsinbasket",
+    "pk": 12,
+    "fields": {
+        "order": 9,
+        "product": 2,
+        "quantity": 2
+    }
+},
+{
+    "model": "orders_app.quantityproductsinbasket",
+    "pk": 13,
+    "fields": {
+        "order": 9,
+        "product": 4,
+        "quantity": 1
+    }
+},
+{
+    "model": "orders_app.quantityproductsinbasket",
+    "pk": 14,
+    "fields": {
+        "order": 9,
+        "product": 7,
+        "quantity": 1
+    }
+},
+{
+    "model": "orders_app.quantityproductsinbasket",
+    "pk": 15,
+    "fields": {
+        "order": 9,
+        "product": 10,
+        "quantity": 4
+    }
+},
+{
+    "model": "orders_app.quantityproductsinbasket",
+    "pk": 16,
+    "fields": {
+        "order": 9,
+        "product": 11,
+        "quantity": 2
+    }
+}
+]

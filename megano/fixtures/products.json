@@ -1,0 +1,554 @@
+[
+{
+    "model": "products_app.product",
+    "pk": 1,
+    "fields": {
+        "title": "Airplane",
+        "price": "345987.00",
+        "count": 13,
+        "date": "2023-06-15",
+        "description": "Самолет",
+        "fullDescription": "Военный самолет",
+        "freeDelivery": false,
+        "rating": 0,
+        "category": 4
+    }
+},
+{
+    "model": "products_app.product",
+    "pk": 2,
+    "fields": {
+        "title": "Computer",
+        "price": "90567.00",
+        "count": 64,
+        "date": "2023-06-15",
+        "description": "Компьютер",
+        "fullDescription": "Стационарный компьютер",
+        "freeDelivery": false,
+        "rating": 5,
+        "category": 1
+    }
+},
+{
+    "model": "products_app.product",
+    "pk": 3,
+    "fields": {
+        "title": "TV",
+        "price": "34876.00",
+        "count": 21,
+        "date": "2023-06-15",
+        "description": "Телевизор",
+        "fullDescription": "Маленький телевизор",
+        "freeDelivery": false,
+        "rating": 0,
+        "category": 1
+    }
+},
+{
+    "model": "products_app.product",
+    "pk": 4,
+    "fields": {
+        "title": "Tablet",
+        "price": "15678.00",
+        "count": 2,
+        "date": "2023-06-15",
+        "description": "Планшет",
+        "fullDescription": "Модный планшет",
+        "freeDelivery": false,
+        "rating": 0,
+        "category": 1
+    }
+},
+{
+    "model": "products_app.product",
+    "pk": 5,
+    "fields": {
+        "title": "Yacht",
+        "price": "345690.00",
+        "count": 0,
+        "date": "2023-06-15",
+        "description": "Яхта",
+        "fullDescription": "Просторная яхта",
+        "freeDelivery": false,
+        "rating": 0,
+        "category": 2
+    }
+},
+{
+    "model": "products_app.product",
+    "pk": 6,
+    "fields": {
+        "title": "Car",
+        "price": "145678.00",
+        "count": 84,
+        "date": "2023-06-15",
+        "description": "Машина",
+        "fullDescription": "Современная машина",
+        "freeDelivery": true,
+        "rating": 0,
+        "category": 3
+    }
+},
+{
+    "model": "products_app.product",
+    "pk": 7,
+    "fields": {
+        "title": "Helicopter",
+        "price": "245678.00",
+        "count": 7,
+        "date": "2023-06-15",
+        "description": "Вертолет",
+        "fullDescription": "Личный вертолет",
+        "freeDelivery": false,
+        "rating": 5,
+        "category": 4
+    }
+},
+{
+    "model": "products_app.product",
+    "pk": 8,
+    "fields": {
+        "title": "Headphones",
+        "price": "5678.00",
+        "count": 0,
+        "date": "2023-06-15",
+        "description": "Наушники",
+        "fullDescription": "Беспроводные наушники",
+        "freeDelivery": false,
+        "rating": 0,
+        "category": 1
+    }
+},
+{
+    "model": "products_app.product",
+    "pk": 9,
+    "fields": {
+        "title": "Telephone",
+        "price": "14980.00",
+        "count": 342,
+        "date": "2023-06-15",
+        "description": "Телефон",
+        "fullDescription": "Современный телефон",
+        "freeDelivery": false,
+        "rating": 0,
+        "category": 1
+    }
+},
+{
+    "model": "products_app.product",
+    "pk": 10,
+    "fields": {
+        "title": "Bicycle",
+        "price": "3290.00",
+        "count": 233,
+        "date": "2023-06-15",
+        "description": "Велосипед",
+        "fullDescription": "Скоростной велосипед",
+        "freeDelivery": false,
+        "rating": 1,
+        "category": 3
+    }
+},
+{
+    "model": "products_app.product",
+    "pk": 11,
+    "fields": {
+        "title": "Speedboat",
+        "price": "56782.00",
+        "count": 12,
+        "date": "2023-06-15",
+        "description": "Катер",
+        "fullDescription": "Эксклюзивный катер",
+        "freeDelivery": false,
+        "rating": 0,
+        "category": 2
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 1,
+    "fields": {
+        "name": "Скорость полета",
+        "value": "3900 км/ч",
+        "product": 1
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 2,
+    "fields": {
+        "name": "Пассажировместимость",
+        "value": "20 человек",
+        "product": 1
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 3,
+    "fields": {
+        "name": "Оперативная память",
+        "value": "32 ГБ",
+        "product": 2
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 4,
+    "fields": {
+        "name": "Разрешение экрана монитора",
+        "value": "1280 × 1024",
+        "product": 2
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 5,
+    "fields": {
+        "name": "Количество каналов",
+        "value": "96",
+        "product": 3
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 6,
+    "fields": {
+        "name": "Стереозвук",
+        "value": "Есть",
+        "product": 3
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 7,
+    "fields": {
+        "name": "Процессор",
+        "value": "2-х ядерный",
+        "product": 4
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 8,
+    "fields": {
+        "name": "Внутренняя память",
+        "value": "16 ГБ",
+        "product": 4
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 9,
+    "fields": {
+        "name": "Вместимость",
+        "value": "1500 человек",
+        "product": 5
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 10,
+    "fields": {
+        "name": "Экипаж",
+        "value": "3 человека",
+        "product": 5
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 11,
+    "fields": {
+        "name": "Максимальная скорость",
+        "value": "300 км/ч",
+        "product": 6
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 12,
+    "fields": {
+        "name": "Масса",
+        "value": "1200 кг",
+        "product": 6
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 13,
+    "fields": {
+        "name": "Экипаж",
+        "value": "2 человека",
+        "product": 7
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 14,
+    "fields": {
+        "name": "Скорость",
+        "value": "500 км/ч",
+        "product": 7
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 15,
+    "fields": {
+        "name": "Вес",
+        "value": "350 г",
+        "product": 8
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 16,
+    "fields": {
+        "name": "Микрофон",
+        "value": "Имеется",
+        "product": 8
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 17,
+    "fields": {
+        "name": "Память",
+        "value": "64 гб",
+        "product": 9
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 18,
+    "fields": {
+        "name": "Камера",
+        "value": "Имеется",
+        "product": 9
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 19,
+    "fields": {
+        "name": "Количество колес",
+        "value": "2",
+        "product": 10
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 20,
+    "fields": {
+        "name": "Количество скоростей",
+        "value": "24",
+        "product": 10
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 21,
+    "fields": {
+        "name": "Длина габаритная",
+        "value": "5 м",
+        "product": 11
+    }
+},
+{
+    "model": "products_app.productspecification",
+    "pk": 22,
+    "fields": {
+        "name": "Вес",
+        "value": "674 кг",
+        "product": 11
+    }
+},
+{
+    "model": "products_app.saleproduct",
+    "pk": 1,
+    "fields": {
+        "salePrice": "78345.00",
+        "dateFrom": "2023-06-15",
+        "dateTo": "2024-06-15",
+        "product": 2
+    }
+},
+{
+    "model": "products_app.saleproduct",
+    "pk": 2,
+    "fields": {
+        "salePrice": "45789.00",
+        "dateFrom": "2023-06-15",
+        "dateTo": "2024-06-15",
+        "product": 11
+    }
+},
+{
+    "model": "products_app.tag",
+    "pk": 1,
+    "fields": {
+        "name": "Техника",
+        "product": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ]
+    }
+},
+{
+    "model": "products_app.tag",
+    "pk": 2,
+    "fields": {
+        "name": "Военная промышленность",
+        "product": [
+            1
+        ]
+    }
+},
+{
+    "model": "products_app.tag",
+    "pk": 3,
+    "fields": {
+        "name": "Транспорт",
+        "product": [
+            1,
+            5,
+            6,
+            7,
+            10,
+            11
+        ]
+    }
+},
+{
+    "model": "products_app.review",
+    "pk": 20,
+    "fields": {
+        "author": "Ivanov Ivan Ivanovich",
+        "email": "admin@mail.ru",
+        "text": "Мощный компьютер!",
+        "rate": 5,
+        "date": "2023-06-23T13:42:28.300Z",
+        "product": 2
+    }
+},
+{
+    "model": "products_app.review",
+    "pk": 21,
+    "fields": {
+        "author": "Ivanov Ivan Ivanovich",
+        "email": "admin@mail.ru",
+        "text": "Сломанный велосипед",
+        "rate": 1,
+        "date": "2023-06-23T13:43:16.866Z",
+        "product": 10
+    }
+},
+{
+    "model": "products_app.review",
+    "pk": 22,
+    "fields": {
+        "author": "Ivanov Ivan Ivanovich",
+        "email": "admin@mail.ru",
+        "text": "Хороший вертолет!",
+        "rate": 5,
+        "date": "2023-06-23T13:44:49.830Z",
+        "product": 7
+    }
+},
+{
+    "model": "products_app.productimage",
+    "pk": 1,
+    "fields": {
+        "image": "products/images/id_1/plane.jpg",
+        "product": 1
+    }
+},
+{
+    "model": "products_app.productimage",
+    "pk": 2,
+    "fields": {
+        "image": "products/images/id_2/computer.jpg",
+        "product": 2
+    }
+},
+{
+    "model": "products_app.productimage",
+    "pk": 3,
+    "fields": {
+        "image": "products/images/id_3/TV.jpg",
+        "product": 3
+    }
+},
+{
+    "model": "products_app.productimage",
+    "pk": 4,
+    "fields": {
+        "image": "products/images/id_4/tablet.png",
+        "product": 4
+    }
+},
+{
+    "model": "products_app.productimage",
+    "pk": 5,
+    "fields": {
+        "image": "products/images/id_5/yacht.jpg",
+        "product": 5
+    }
+},
+{
+    "model": "products_app.productimage",
+    "pk": 6,
+    "fields": {
+        "image": "products/images/id_6/cool_car.jpg",
+        "product": 6
+    }
+},
+{
+    "model": "products_app.productimage",
+    "pk": 7,
+    "fields": {
+        "image": "products/images/id_7/helicopter.jpg",
+        "product": 7
+    }
+},
+{
+    "model": "products_app.productimage",
+    "pk": 8,
+    "fields": {
+        "image": "products/images/id_8/headphones.jpg",
+        "product": 8
+    }
+},
+{
+    "model": "products_app.productimage",
+    "pk": 9,
+    "fields": {
+        "image": "products/images/id_9/telephone.jpg",
+        "product": 9
+    }
+},
+{
+    "model": "products_app.productimage",
+    "pk": 10,
+    "fields": {
+        "image": "products/images/id_10/bicycle.jpg",
+        "product": 10
+    }
+},
+{
+    "model": "products_app.productimage",
+    "pk": 11,
+    "fields": {
+        "image": "products/images/id_11/boat.jpg",
+        "product": 11
+    }
+}
+]

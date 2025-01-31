@@ -1,0 +1,70 @@
+[
+{
+    "model": "catalog_app.category",
+    "pk": 1,
+    "fields": {
+        "title": "Electronics",
+        "parent": null,
+        "main": true
+    }
+},
+{
+    "model": "catalog_app.category",
+    "pk": 2,
+    "fields": {
+        "title": "Water technology",
+        "parent": null,
+        "main": false
+    }
+},
+{
+    "model": "catalog_app.category",
+    "pk": 3,
+    "fields": {
+        "title": "Ground technology",
+        "parent": null,
+        "main": false
+    }
+},
+{
+    "model": "catalog_app.category",
+    "pk": 4,
+    "fields": {
+        "title": "Aerial technology",
+        "parent": null,
+        "main": false
+    }
+},
+{
+    "model": "catalog_app.imagecategory",
+    "pk": 1,
+    "fields": {
+        "image": "categories/images/Electronics/id_1/electronic.jpg",
+        "category": 1
+    }
+},
+{
+    "model": "catalog_app.imagecategory",
+    "pk": 2,
+    "fields": {
+        "image": "categories/images/Water technology/id_2/watercraft.jpeg",
+        "category": 2
+    }
+},
+{
+    "model": "catalog_app.imagecategory",
+    "pk": 3,
+    "fields": {
+        "image": "categories/images/Ground technology/id_3/auto.jpg",
+        "category": 3
+    }
+},
+{
+    "model": "catalog_app.imagecategory",
+    "pk": 4,
+    "fields": {
+        "image": "categories/images/Aerial technology/id_4/Air_technic.jpg",
+        "category": 4
+    }
+}
+]
